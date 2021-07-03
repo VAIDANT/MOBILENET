@@ -6,7 +6,8 @@ Webcam.set({
     flip_horiz: true,
 
     constraints: {
-        facingMode : "environment"
+        facingMode : "environment",
+        flip_horiz: true,
     }
 })
 
