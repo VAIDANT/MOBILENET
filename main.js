@@ -2,12 +2,10 @@ Webcam.set({
     width: 360,
     height: 250,
     image_format: 'png',
-    png_quality: 90,
-    flip_horiz: true,
+    png_quality: 90
 
     constraints: {
-        facingMode : "environment",
-        flip_horiz: true,
+        facingMode : "environment"
     }
 })
 
